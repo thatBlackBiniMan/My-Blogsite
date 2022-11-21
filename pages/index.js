@@ -9,7 +9,7 @@ const posts = [
 ]
 
 
-const Home = () => {
+export default function Home () {
   
 
   return (
@@ -28,7 +28,7 @@ const Home = () => {
     <div className="lg:col-span-4 col-span-1">
       <div className="lg:sticky relative top-8">
         <PostWidget/>
-        <PostCard/>
+        <Categories/>
       </div>
      </div>
     </div>
@@ -37,4 +37,4 @@ const Home = () => {
   )
 }
 
-export default Home
+
